@@ -1,0 +1,13 @@
+city,ph,temperature,best_crop
+chennai,6.5,28,rice
+delhi,7.2,25,wheat
+bangalore,6.8,22,maize
+hyderabad,6.3,32,cotton
+mumbai,6.7,26,sugarcane
+kolkata,6.1,30,soybean
+ahmedabad,7.0,28,pulses
+lucknow,6.4,27,groundnut
+jaipur,6.5,29,millet
+coimbatore,6.3,27,cotton
+vijayawada,6.7,31,sugarcane
+patna,6.0,30,rice
