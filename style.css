@@ -1,0 +1,205 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url("https://wallpapercave.com/wp/wp9212011.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffffcc;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 128, 0, 0.3);
+  backdrop-filter: blur(5px);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #2e7d32;
+  text-shadow: 0 0 5px #a5d6a7;
+}
+
+.intro {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c8e6c9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #f1f8e9;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #66bb6a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #a5d6a7;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #4caf50;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background: #e8f5e9;
+  border-left: 5px solid #66bb6a;
+  border-radius: 6px;
+  color: #2e7d32;
+  font-weight: 500;
+  box-shadow: 0 0 10px rgba(102, 187, 106, 0.2);
+}
+.hero {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.hero-overlay {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.hero-overlay h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #000;
+}
+
+.hero-overlay p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px #000;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #64b767;
+  color: #a8444c;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(131, 154, 203, 0.5);
+  transition: background 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #30590a;
+}
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(47, 120, 35, 0.8);
+  font-size: 14px;
+  color: #2a1b5d;
+  margin-top: 40px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  background-color: rgba(255, 255, 255, 0.6); /* semi-transparent */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 128, 0, 0.2);
+  backdrop-filter: blur(6px);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: #2e7d32;
+  font-size: 18px;
+}
+
+.logo img {
+  width: 32px;
+  height: 32px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #4caf50;
+}
+
+.section {
+  max-width: 800px;
+  margin: 100px auto 60px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 128, 0, 0.2);
+}
+
+.section h2 {
+  color: #2e7d32;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.section p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.logo img {
+  width: 28px;
+  height: 28px;
+}
