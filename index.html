@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Crop Advisor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+  <div class="logo">
+    <img src="https://cdn-icons-png.flaticon.com/512/427/427735.png" alt="Agri Logo">
+    <span>Smart Crop Advisor</span>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#recommendation" class="hero-btn">Get the Crop Advisor</a></li>
+    </ul>
+  </nav>
+</header>
+  <div class="hero">
+  <div class="hero-overlay">
+    <h2>Agriculture & Eco Farming</h2>
+    <p>Empowering farmers with AI-driven crop recommendations for sustainable growth.</p>
+    <a href="#" class="hero-btn">Let's Scroll</a>
+  </div>
+</div>
+<section id="home" class="section home-section">
+  <h2>🌿 Crop Planning Made Smarter</h2>
+  <p>Our platform analyzes soil pH, weather conditions, and crop suitability to guide farmers toward sustainable choices.</p>
+  <p>We use real-time weather APIs and curated agricultural datasets to ensure recommendations are timely and region-specific.</p>
+  <p>Whether you're growing rice in Tamil Nadu or pulses in Rajasthan, Smart Crop Advisor helps you make informed decisions.</p>
+  <p>Our system supports multilingual input and offline access for rural deployment.</p>
+</section>
+
+<section id="about" class="section about-section">
+  <h2>🌾 About Us</h2>
+  <p>Smart Crop Advisor is built by a team of agri-tech enthusiasts committed to empowering farmers through AI.</p>
+  <p>We believe in combining traditional farming wisdom with modern data science to improve yield and sustainability.</p>
+  <p>Our mission is to make crop planning accessible, personalized, and eco-conscious for every farmer in India.</p>
+  <p>Join us in transforming agriculture—one recommendation at a time.</p>
+</section>
+  <div class="container" id="recommendation">
+    <p class="intro">
+  Welcome to Smart Crop Advisor — your AI-powered assistant for sustainable farming.  
+  Enter your city name to receive real-time crop recommendations based on soil and weather conditions.
+</p>
+<img src="https://static.vecteezy.com/system/resources/previews/021/663/828/original/agriculture-icon-with-rice-field-and-cog-wheel-vector.jpg" alt="Farm Icon" style="width:60px; display:block; margin:0 auto 10px;">
+<p style="text-align:center; font-size:14px; color:#2e7d32;">Powered by Smart Crop Intelligence</p>    
+<h1>Smart Crop Advisor</h1>
+
+    <div class="form-group">
+      <label>City Name:</label>
+      <input id="city" type="text" placeholder="e.g. Chennai">
+    </div>
+
+    <button id="btn">Get Recommendation</button>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+<footer class="footer">
+  <p>© 2025 Smart Crop Advisor | Designed for sustainable agriculture</p>
+</footer>
+</html>
